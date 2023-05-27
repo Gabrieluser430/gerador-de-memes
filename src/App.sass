@@ -1,0 +1,271 @@
+@import "./partials/_variables.sass"
+
+.html-body
+  margin: 0px
+  padding: 0px
+  background-color: #F5F5F5
+
+@media(max-width: 1100px)
+  header
+    background-image: $gradient
+    height: 6rem
+    width: 100%
+    padding: 2rem
+    display: flex
+    justify-content: space-between
+    align-items: center
+    p
+      color: $textColor
+      font-size: 1rem
+    div
+      display: flex
+      justify-content: center
+      align-items: center
+      h1
+        color: $textColor
+        font-size: 2rem
+      img
+        width: 6rem
+        height: 4rem
+
+@media(max-width: 1100px)
+    .form-container 
+        margin-top: 6rem
+        display: grid
+        grid-template: 45px 45px / 400px 400px
+        grid-gap: 3rem 2rem
+        button
+            grid-column: 1 / -1
+            font-size: 1.2em
+            font-family: $font
+            border-radius: 8px
+            background: $gradient
+            color: white
+            border: none
+            cursor: pointer
+            outline: none
+    .top-input
+        font-family: $font
+        border: 2px solid #D5D4D8
+        border-radius: 6px
+        text-indent: 15px
+        font-size: 1.2rem   
+
+    .bottom-input
+        font-family: $font
+        border: 2px solid #D5D4D8
+        border-radius: 6px
+        text-indent: 15px
+        font-size: 1.2rem   
+
+    .memeText
+        position: absolute
+        width: 80%
+        text-align: center
+        left: 50%
+        transform: translateX(-50%)
+        margin: 30px 0
+        padding: 0 5px
+        font-family: impact, sans-serif
+        font-size: 2.6em
+        text-transform: uppercase
+        color: white
+        letter-spacing: 1px
+        text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000, 2px 2px 5px #000
+
+    .meme-container 
+        display: flex
+        justify-content: center
+        align-items: center
+        position: relative
+        img
+            width: 828px
+            height: 450px
+
+
+@media(max-width: 880px)
+    .form-container 
+        margin-top: 6rem
+        display: grid
+        grid-template: 50px 50px 50px / 650px
+        grid-gap: 3rem 2rem
+        button
+            grid-column: 1 / -1
+            font-size: 1.2em
+            font-family: $font
+            border-radius: 8px
+            background: $gradient
+            color: white
+            border: none
+            cursor: pointer
+            outline: none
+    .top-input
+        font-family: $font
+        border: 2px solid #D5D4D8
+        border-radius: 6px
+        text-indent: 15px
+        font-size: 1.2rem   
+
+    .bottom-input
+        font-family: $font
+        border: 2px solid #D5D4D8
+        border-radius: 6px
+        text-indent: 15px
+        font-size: 1.2rem   
+
+    .meme-container 
+        display: flex
+        justify-content: center
+        align-items: center
+        position: relative
+        img
+            width: 650px
+            height: 350px
+    .memeText
+        position: absolute
+        width: 80%
+        text-align: center
+        left: 50%
+        transform: translateX(-50%)
+        margin: 30px 0
+        padding: 0 5px
+        font-family: impact, sans-serif
+        font-size: 2.3em
+        text-transform: uppercase
+        color: white
+        letter-spacing: 1px
+        text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000, 2px 2px 5px #000
+
+@media(max-width: 730px)
+    header
+        background-image: $gradient
+        height: 6rem
+        width: 100%
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        p
+            color: $textColor
+            font-size: 1rem
+            display: none
+        div
+            display: flex
+            justify-content: center
+            align-items: center
+            h1
+                color: $textColor
+                font-size: clamp(1.3rem, 6vw, 10rem)
+            img
+                width: 15vw
+                min-width: 5rem
+                min-height: 3rem
+                height: 10vw
+
+@media(max-width: 730px)
+    .form-container 
+        margin-top: 6rem
+        display: grid
+        grid-template: 40px 40px 40px / 450px
+        grid-gap: 3rem 2rem
+        button
+            grid-column: 1 / -1
+            font-size: 1.2em
+            font-family: $font
+            border-radius: 8px
+            background: $gradient
+            color: white
+            border: none
+            cursor: pointer
+            outline: none
+    .top-input
+        font-family: $font
+        border: 2px solid #D5D4D8
+        border-radius: 6px
+        text-indent: 15px
+        font-size: 1.2rem   
+
+    .bottom-input
+        font-family: $font
+        border: 2px solid #D5D4D8
+        border-radius: 6px
+        text-indent: 15px
+        font-size: 1.2rem   
+
+    .meme-container 
+        display: flex
+        justify-content: center
+        align-items: center
+        position: relative
+        img
+            width: 450px
+            height: 380px
+    .memeText
+        position: absolute
+        width: 80%
+        text-align: center
+        left: 50%
+        transform: translateX(-50%)
+        margin: 30px 0
+        padding: 0 5px
+        font-family: impact, sans-serif
+        font-size: 2.3em
+        text-transform: uppercase
+        color: white
+        letter-spacing: 1px
+        text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000, 2px 2px 5px #000
+
+@media(max-width: 500px)
+    .form-container 
+        margin-top: 6rem
+        display: grid
+        grid-template: 40px 40px 40px / 330px
+        grid-gap: 3rem 2rem
+        button
+            grid-column: 1 / -1
+            font-size: 1em
+            font-family: $font
+            border-radius: 8px
+            background: $gradient
+            color: white
+            border: none
+            cursor: pointer
+            outline: none
+    .top-input
+        font-family: $font
+        border: 2px solid #D5D4D8
+        border-radius: 6px
+        text-indent: 15px
+        font-size: 1rem   
+
+    .bottom-input
+        font-family: $font
+        border: 2px solid #D5D4D8
+        border-radius: 6px
+        text-indent: 15px
+        font-size: 1rem   
+
+    .meme-container 
+        display: flex
+        justify-content: center
+        align-items: center
+        position: relative
+        img
+            width: 360px
+            height: 360px
+    .memeText
+        position: absolute
+        width: 80%
+        text-align: center
+        left: 50%
+        transform: translateX(-50%)
+        margin: 30px 0
+        padding: 0 5px
+        font-family: impact, sans-serif
+        font-size: 1.8em
+        text-transform: uppercase
+        color: white
+        letter-spacing: 1px
+        text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000, 2px 2px 5px #000
+    
+    
