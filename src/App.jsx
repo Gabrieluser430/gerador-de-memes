@@ -6,7 +6,7 @@ import "./App.sass"
 
 export default function App() {
   return (
-    <div>
+    <div className="app-container">
         <Header/>
         <Main />
     </div>
