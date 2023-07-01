@@ -1,5 +1,5 @@
 # Scrimba - Generate memes from an API
-I developed this project personally, which was written using the [Scrimba](https://scrimba.com/#overview) built-in code editor while I was learning React.
+I developed this project by myself, which was written using the [Scrimba](https://scrimba.com/#overview) built-in code editor while I was learning React.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -19,11 +19,11 @@ I developed this project personally, which was written using the [Scrimba](https
 - Live Site URL: [Live site](https://jolly-strudel-57a01f.netlify.app/)
 
 ## My process
+A project that consumes an API that retrieves memes, made with the mobile-first approach and scaffolded with Vite.
 ### Built with
 - HTML5
 - CSS3
 - Sass
-- Javascript
 - React
 - Vite
 
